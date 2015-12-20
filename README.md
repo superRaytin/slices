@@ -1,6 +1,6 @@
 # slices
 
-Converting image into slices by the given reference lines
+Slice given area into blocks by the given reference lines
 
 ```
 var Slices = require('slices');
