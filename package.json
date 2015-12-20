@@ -1,0 +1,32 @@
+{
+  "name": "slices",
+  "version": "0.1.0",
+  "description": "Converting image into slices by the given reference lines",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superRaytin/slices/issues"
+  },
+  "homepage": "https://github.com/superRaytin/slices",
+  "repository": "https://github.com/superRaytin/slices",
+  "keywords": [
+    "block",
+    "slice",
+    "slices",
+    "knife",
+    "image slices"
+  ],
+  "author": "Leon Shi",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/*.js",
+    "start": "./node_modules/http-server/bin/http-server ./ -p 9100"
+  },
+  "devDependencies": {
+    "should": "~6.0.1",
+    "mocha": "~2.2.4",
+    "http-server": "~0.8.5",
+    "grunt": "~0.4.5",
+    "grunt-contrib-uglify": "~0.4",
+    "grunt-browserify": "~4.0.1"
+  }
+}
