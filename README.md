@@ -55,6 +55,12 @@ True or false, default is false.
 This will put space between the X axises as parent-block,
 the areas between the first Y axis and last Y axis will be children of the parent-block, and it will generate boundary data.
 
+<p style="text-align: center">
+    <img src="docs/demonstrate2.png" width="870" alt="slices">
+</p>
+
+Below is an example:
+
 ```js
 Slices(width, height, [x1, x2], [y1, y2, y3], {middleBoundaryMode: true});
 ```
@@ -104,10 +110,6 @@ Get blocks like below:
     ...
 ]
 ```
-
-<p style="text-align: center">
-    <img src="docs/demonstrate2.png" width="870" alt="slices">
-</p>
 
 # Testing
 
