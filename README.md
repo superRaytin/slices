@@ -4,7 +4,7 @@
 
 # slices
 
-> Slice given area into blocks by the given reference lines
+> Node.js module for slicing given area into blocks by the given reference lines
 
 [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url]
 
