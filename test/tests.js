@@ -30,7 +30,8 @@ describe('entrance method Slices()', function() {
       { width: 400, height: 400, x: 100, y: 100 }];
     should(blocks2).eql(result2);
 
-    var result3 = Slices(width, height, [100, 300], [100, 200, 300], {middleBoundaryMode: true});
-    console.log(JSON.stringify(result3));
+    var block3 = Slices(width, height, [100, 300], [100, 200, 300], {middleBoundaryMode: true});
+    var result3 = [{"width":500,"height":100,"x":0,"y":0,"children":[{"width":100,"height":100,"x":100,"y":0,"left":0,"top":0,"parentBlockIndex":0,"index":0},{"width":100,"height":100,"x":200,"y":0,"left":100,"top":0,"parentBlockIndex":0,"index":1}],"boundary":{"leftTop":{"x":100,"y":0},"rightBottom":{"x":300,"y":100}}},{"width":500,"height":200,"x":0,"y":100,"children":[{"width":100,"height":200,"x":100,"y":100,"left":0,"top":0,"parentBlockIndex":1,"index":0},{"width":100,"height":200,"x":200,"y":100,"left":100,"top":0,"parentBlockIndex":1,"index":1}],"boundary":{"leftTop":{"x":100,"y":100},"rightBottom":{"x":300,"y":300}}},{"width":500,"height":200,"x":0,"y":300,"children":[{"width":100,"height":200,"x":100,"y":300,"left":0,"top":0,"parentBlockIndex":2,"index":0},{"width":100,"height":200,"x":200,"y":300,"left":100,"top":0,"parentBlockIndex":2,"index":1}],"boundary":{"leftTop":{"x":100,"y":300},"rightBottom":{"x":300,"y":500}}}];
+    should(block3).eql(result3);
   });
 });
