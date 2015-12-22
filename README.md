@@ -1,5 +1,5 @@
 <p style="text-align: center">
-    <img src="images/demonstrate.png" width="887" alt="slices">
+    <img src="docs/demonstrate.png" width="887" alt="slices">
 </p>
 
 # slices
