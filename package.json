@@ -1,6 +1,6 @@
 {
   "name": "slices",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Slice given area into blocks by the given reference lines",
   "main": "lib/index.js",
   "license": "MIT",
@@ -10,11 +10,12 @@
   "homepage": "https://github.com/superRaytin/slices",
   "repository": "https://github.com/superRaytin/slices",
   "keywords": [
-    "block",
     "slice",
     "slices",
     "knife",
-    "image slices"
+    "image slices",
+    "blocks",
+    "block"
   ],
   "author": "Leon Shi",
   "scripts": {
