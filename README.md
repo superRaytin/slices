@@ -6,7 +6,9 @@
 
 > Node.js module for slicing given area into blocks by the given reference lines
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url]
+[![Build Status](https://travis-ci.org/superRaytin/slices.svg?branch=master)](https://travis-ci.org/superRaytin/slices)
+[![NPM version][npm-image]][npm-url]
+[![Downloads][downloads-image]][npm-url]
 
 [![slices](https://nodei.co/npm/slices.png)](https://npmjs.org/package/slices)
 
