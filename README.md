@@ -52,7 +52,7 @@ npm install slices
 
 True or false, default is false.
 
-This will put space between the X axises as parent-block,
+This will put spaces between each two X axis as parent-block,
 the areas between the first Y axis and last Y axis will be children of the parent-block, and it will generate boundary data.
 
 <p style="text-align: center">
