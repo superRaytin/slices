@@ -20,8 +20,7 @@
   "author": "Leon Shi",
   "scripts": {
     "lint": "eslint --ext .js lib",
-    "test": "./node_modules/.bin/mocha ./test/*.js",
-    "start": "./node_modules/http-server/bin/http-server ./ -p 9100"
+    "test": "./node_modules/.bin/mocha ./test/*.js"
   },
   "pre-commit": [
     "lint"
