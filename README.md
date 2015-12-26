@@ -2,6 +2,8 @@
     <img src="docs/demonstrate.png" width="887" alt="slices">
 </p>
 
+**Yeah, no kidding, you give me a wide and a high, I'll give you blocks, the same as cutting the cake!** :fork_and_knife: :cake:
+
 # slices
 
 > Node.js module for slicing given area into blocks by the given reference lines
@@ -54,8 +56,8 @@ npm install slices
 
 Either true or false, default is false.
 
-If set to true, this will put spaces between each two X axis as parent-block,
-the areas between the first Y axis and last Y axis will be children of the parent-block, and it will generate boundary data.
+If set to true, this will put spaces between each two lines of X axis as parent-block,
+the areas between the first line of Y axis and the last will be children of the parent-block, and it will generate boundary data.
 
 <p style="text-align: center">
     <img src="docs/demonstrate2.png" width="870" alt="slices">
