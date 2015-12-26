@@ -2,7 +2,7 @@
     <img src="docs/demonstrate.png" width="887" alt="slices">
 </p>
 
-**Yeah, no kidding, you give me a wide and a high, I'll give you blocks, the same as cutting the cake!** :fork_and_knife: :cake:
+**Yeah, no kidding, you give me a range (width & height) and reference lines, and I'll give you blocks, the same as cutting the cake!** :fork_and_knife: :cake:
 
 # slices
 
