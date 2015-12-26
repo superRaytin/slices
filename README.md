@@ -44,17 +44,17 @@ npm install slices
 
 - **width:** Number of pixels wide
 - **height:** Number of pixels high
-- **lineXArray:** Reference lines of the X axis
-- **lineYArray:** Reference lines of the Y axis
-- **options:** Slice with some optional parameters, see [options](#options) for detail.
+- **lineXArray:** reference lines of the X axis
+- **lineYArray:** reference lines of the Y axis
+- **options:** slice with some optional parameters, see [options](#options) for detail.
 
 ## Options
 
 ### middleBoundaryMode
 
-True or false, default is false.
+Either true or false, default is false.
 
-This will put spaces between each two X axis as parent-block,
+If set to true, this will put spaces between each two X axis as parent-block,
 the areas between the first Y axis and last Y axis will be children of the parent-block, and it will generate boundary data.
 
 <p style="text-align: center">
