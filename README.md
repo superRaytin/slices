@@ -6,7 +6,7 @@ Yeah, no kidding, you give me a range (width & height) and reference lines, and 
 
 # slices
 
-> Node.js module for slicing given area into blocks by the given reference lines
+> Node.js module for slicing given area into blocks with the given reference lines
 
 [![Build Status](https://travis-ci.org/superRaytin/slices.svg?branch=master)](https://travis-ci.org/superRaytin/slices)
 [![NPM version][npm-image]][npm-url]
@@ -66,7 +66,7 @@ the areas between the first line of Y axis and the last will be children of the 
 Below is an example:
 
 ```js
-Slices(width, height, [x1, x2], [y1, y2, y3], {middleBoundaryMode: true});
+Slices(500, 500, [100, 300], [100, 200, 300], {middleBoundaryMode: true});
 ```
 
 Get blocks like below:
@@ -114,6 +114,12 @@ Get blocks like below:
     ...
 ]
 ```
+
+## Where is this library used?
+
+If you are using this library in one of your projects, add it in this list :)
+
+- [image-to-slices](https://github.com/superRaytin/image-to-slices)
 
 # Testing
 
