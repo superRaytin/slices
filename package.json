@@ -1,6 +1,6 @@
 {
   "name": "slices",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Node.js module for slicing given area into blocks with the given reference lines",
   "main": "lib/index.js",
   "license": "MIT",
