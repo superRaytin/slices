@@ -120,6 +120,7 @@ Get blocks like below:
 If you are using this library in one of your projects, add it in this list :)
 
 - [image-to-slices](https://github.com/superRaytin/image-to-slices)
+- [Puzzler](https://github.com/superRaytin/puzzler)
 
 # Testing
 
