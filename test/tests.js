@@ -46,4 +46,10 @@ describe('utils', function() {
     arr = [87, 0, 2, 13, 87, 9, 1, 9, 10];
     should(utils.sortAndUnique(arr)).eql([0, 1, 2, 9, 10, 13, 87]);
   });
+
+  it('Sorting larger arrays', function() {
+    var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+    should(utils.sortAndUnique(arr)).eql([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]);
+
+  });
 });
